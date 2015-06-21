@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spla.timer_app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.app.default_search"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task_start_activity"
+            android:label="@string/title_activity_task_start_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Task_start_activity_notify"
+            android:label="@string/title_activity_task_start_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Impressum"
+            android:label="@string/title_activity_impressum" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Task_sumary"
+            android:label="@string/title_activity_task_sumary" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Task_sumary_lv"
+            android:label="@string/title_activity_task_sumary" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddContact"
+            android:label="@string/title_activity_add_contact" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SearchableActivity"
+            android:label="@string/title_activity_searchable" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".Task_before_start"
+            android:label="@string/title_activity_task_before_start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditContact"
+            android:label="@string/title_activity_edit_contact" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spla.timer_app.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

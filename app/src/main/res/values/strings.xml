@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Timer_App</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_task_start_activity">Auftrag</string>
+
+    <string name="title_activity_impressum">Impressum</string>
+    <string name="copri">Copyright &#169; Sebastian Plangger</string>
+    <string name="b_contacts">Browse Contacts</string>
+    <string name="title_activity_browse_contacts">Browse Contacts</string>
+    <string name="title_activity_task_sumary">Zusammenfassung</string>
+    <string name="search_hint">Suche</string>
+    <string name="title_activity_sear_result">SearResultActivity</string>
+    <string name="action_search">Suche</string>
+    <string name="title_activity_add_contact">Kontakt hinzufügen</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="title_activity_task_before_start"></string>
+    <string name="title_activity_edit_contact">Kontakt bearbeiten</string>
+</resources>
